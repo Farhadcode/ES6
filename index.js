@@ -1,7 +1,7 @@
 //javasript //
 var num = 5;
 function sayName() {
-    var name  =" farhad"
+    var name = " farhad"
     console.log(name);
 }
 sayName()
@@ -20,3 +20,7 @@ conunter = 5;
 
 
 // ES6 ///
+
+const y = x => x * x;
+const x = y(5);
+console.log(x);

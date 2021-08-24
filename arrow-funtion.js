@@ -6,9 +6,9 @@
 // getElemensByTa
 
 
-add = (a, b) => a + b;
+add = (a, b = 0) => a + b;
 
-const result = add(6, 7);
+const result = add(6,);
 
 console.log(result);
 
