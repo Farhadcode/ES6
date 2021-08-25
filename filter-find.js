@@ -15,3 +15,10 @@ console.log(expensive);
 
 const blacks = products.filter(pd => pd.color == 'black');
 console.log(blacks);
+const blacks = products.filter(pd => pd.color == 'black');
+console.log(blacks);
+
+// find retun at object filter  retun a array
+
+const blacks = products.find(pd => pd.color == 'green');
+console.log(blacks);
